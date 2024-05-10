@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/FedorovValentyn.github.io/static/css/main.e3056d27.css",
-    "main.js": "/FedorovValentyn.github.io/static/js/main.74164176.js",
-    "index.html": "/FedorovValentyn.github.io/index.html",
-    "main.e3056d27.css.map": "/FedorovValentyn.github.io/static/css/main.e3056d27.css.map",
-    "main.74164176.js.map": "/FedorovValentyn.github.io/static/js/main.74164176.js.map"
+    "main.css": "/faceapp/static/css/main.e3056d27.css",
+    "main.js": "/faceapp/static/js/main.74164176.js",
+    "index.html": "/faceapp/index.html",
+    "main.e3056d27.css.map": "/faceapp/static/css/main.e3056d27.css.map",
+    "main.74164176.js.map": "/faceapp/static/js/main.74164176.js.map"
   },
   "entrypoints": [
     "static/css/main.e3056d27.css",
