@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+@keyframes clickEffect {
+  from {
+    transform: translateY(-50%) scale(1);
+  }
+  to {
+    transform: translateY(-50%) scale(1.1);
+  }
+}
+
