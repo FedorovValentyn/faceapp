@@ -210,7 +210,7 @@ function App() {
                 width: "400px",
                 display: playMusic ? 'none' : 'block'
             }}>
-            <h3> This app detect some kinds of motions:
+            <h3> This app detects some motions:
            "Hi", "Please","Good", "Bad", "Uwu", "Ok", "Heart", "Victory", "Freedom".
             Also you can voice up the labels by triggering the button above
             </h3>
