@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/faceapp/static/css/main.e3056d27.css",
-    "main.js": "/faceapp/static/js/main.74164176.js",
+    "main.js": "/faceapp/static/js/main.89b61e7d.js",
     "index.html": "/faceapp/index.html",
     "main.e3056d27.css.map": "/faceapp/static/css/main.e3056d27.css.map",
-    "main.74164176.js.map": "/faceapp/static/js/main.74164176.js.map"
+    "main.89b61e7d.js.map": "/faceapp/static/js/main.89b61e7d.js.map"
   },
   "entrypoints": [
     "static/css/main.e3056d27.css",
-    "static/js/main.74164176.js"
+    "static/js/main.89b61e7d.js"
   ]
 }
