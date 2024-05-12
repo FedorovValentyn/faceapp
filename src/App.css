@@ -44,4 +44,19 @@
     transform: translateY(-50%) scale(1.1);
   }
 }
-
+@media (max-width: 768px) {
+    .App-header {
+        flex-direction: column;
+    }
+    canvas, .Webcam {
+        width: 100%;
+        height: auto;
+        right: 0;
+        left: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .button {
+        padding: 15px 30px; /* Smaller padding */
+    }
+}

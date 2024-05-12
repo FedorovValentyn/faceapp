@@ -140,6 +140,7 @@ function App() {
     }
 }
 
+
   return (
     <div className="App">
         <header className="App-header">
@@ -202,6 +203,7 @@ function App() {
                 {continuousSpeech ? 'Turn Off' : 'Voice Up'}
             </button>
             <div style={{
+
                 position: "fixed",
                 right:"15%",
                 top: "30%",
