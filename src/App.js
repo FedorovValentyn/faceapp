@@ -142,83 +142,83 @@ function App() {
 
 
   return (
-    <div className="App">
-        <header className="App-header">
-            <Webcam
-                ref={webcamRef}
-                muted={true}
-                style={{
-                    position: "absolute",
-                    marginLeft: "auto",
-                    marginRight: "auto",
-                    left: 0,
-                    right: 500,
-                    textAlign: "center",
-                    zindex: 9,
-                    width: 640,
-                    height: 480,
-                }}
-            />
+   <div className="App">
+       <header className="App-header">
+           <Webcam
+               ref={webcamRef}
+               muted={true}
+               style={{
+                   position: "absolute",
+                   marginLeft: "auto",
+                   marginRight: "auto",
+                   left: 0,
+                   right: 0,
+                   textAlign: "center",
+                   zindex: 9,
+                   width: "100%",
+                   height: "auto",
+               }}
+           />
 
-            <canvas
-                ref={canvasRef}
-                style={{
-                    position: "absolute",
-                    marginLeft: "auto",
-                    marginRight: "auto",
-                    left: 0,
-                    right: 500,
-                    textAlign: "center",
-                    zindex: 8,
-                    width: 640,
-                    height: 480,
-                }}
-            />
-            {showLabel && <div style={{
-                position: "fixed",
-                top: "10%",
-                left: "40%",
-                transform: "translateX(-50%)",
-                color: "white",
-                fontSize: "30px"
-            }}>{showLabel}</div>}
-            {showImage && <img src="Skorop.png" alt="Salute"
-                               style={{position: "absolute", right: "15%", top: "50%", transform: "translateY(-50%)"}}/>}
-            {playMusic && <audio src="march1.mp3" autoPlay onEnded={handleMusicEnd}/>}
-            <button onClick={toggleSpeech}
-                    style={{
-                        position: "absolute",
-                        right: "20%",
-                        top: "10%",
-                        transform: "translateY(-50%)",
-                        backgroundColor: continuousSpeech ? "#f44336" : "#4CAF50",
-                        color: "white",
-                        border: "none",
-                        padding: "30px 60px",
-                        fontSize: "16px",
-                        borderRadius: "5px",
-                        cursor: "pointer",
-                        transition: "background-color 0.3s ease"
-                    }}>
-                {continuousSpeech ? 'Turn Off' : 'Voice Up'}
-            </button>
-            <div style={{
+           <canvas
+               ref={canvasRef}
+               style={{
+                   position: "absolute",
+                   marginLeft: "auto",
+                   marginRight: "auto",
+                   left: 0,
+                   right: 0,
+                   textAlign: "center",
+                   zindex: 8,
+                   width: "100%",
+                   height: "auto",
+               }}
+           />
+           {showLabel && <div style={{
+               position: "fixed",
+               top: "10%",
+               left: "40%",
+               transform: "translateX(-50%)",
+               color: "white",
+               fontSize: "30px"
+           }}>{showLabel}</div>}
+           {showImage && <img src="Skorop.png" alt="Salute"
+                              style={{position: "absolute", right: "15%", top: "50%", transform: "translateY(-50%)"}}/>}
+           {playMusic && <audio src="march1.mp3" autoPlay onEnded={handleMusicEnd}/>}
+           <button onClick={toggleSpeech}
+                   style={{
+                       position: "absolute",
+                       right: "20%",
+                       top: "10%",
+                       transform: "translateY(-50%)",
+                       backgroundColor: continuousSpeech ? "#f44336" : "#4CAF50",
+                       color: "white",
+                       border: "none",
+                       padding: "30px 60px",
+                       fontSize: "16px",
+                       borderRadius: "5px",
+                       cursor: "pointer",
+                       transition: "background-color 0.3s ease"
+                   }}>
+               {continuousSpeech ? 'Turn Off' : 'Voice Up'}
+           </button>
+           <div style={{
 
-                position: "fixed",
-                right:"15%",
-                top: "30%",
-                fontSize: "18px",
-                height: "100px",
-                width: "400px",
-                display: playMusic ? 'none' : 'block'
-            }}>
-            <h3> This app detects some motions :
-           "Hi", "Please","Good", "Bad", "Uwu", "Ok", "Heart", "Victory", "Freedom".
-            Also you can voice up the labels by triggering the button above
-            </h3>
-            </div>
-        </header>
-    </div>
+               position: "fixed",
+               right: "15%",
+               top: "30%",
+               fontSize: "18px",
+               height: "100px",
+               width: "400px",
+               display: playMusic ? 'none' : 'block'
+           }}>
+               <h3> This app detects some motions :
+                   "Hi", "Please","Good", "Bad", "Uwu", "Ok", "Heart", "Victory", "Freedom".
+                   Also you can voice up the labels by triggering the button above
+               </h3>
+           </div>
+       </header>
+   </div>
   );
 }
 
