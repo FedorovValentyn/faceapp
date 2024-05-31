@@ -65,7 +65,7 @@ function App() {
       setShowLabel(label);
 
       clearTimeout(timeoutId.current);
-      if (labelMap[detectionCode]?.name === 'Hi' /*&& labelMap[detectionCode]?.name === 'pyroh'*/) {
+      if (labelMap[detectionCode]?.name === 'Hi' && labelMap[detectionCode]?.name === 'pyroh') {
         if (!playMusic) {
           setShowImage(true);
           setPlayMusic(true);
