@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/faceapp/static/css/main.f855e6bc.css",
+    "main.js": "/faceapp/static/js/main.2eb0baf4.js",
+    "index.html": "/faceapp/index.html",
+    "main.f855e6bc.css.map": "/faceapp/static/css/main.f855e6bc.css.map",
+    "main.2eb0baf4.js.map": "/faceapp/static/js/main.2eb0baf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.2eb0baf4.js"
+  ]
+}
